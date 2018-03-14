@@ -1,0 +1,25 @@
+{
+    "name": "cleanslate/cms",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dane Williams",
+            "email": "dane@danewilliams.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-0" : {
+            "CleanSlate\\CMS" : "src"
+        }
+    },
+    "require": {
+        "cleanslate/platform": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:cleanslate-apps/platform.git"
+        }
+    ]
+}
